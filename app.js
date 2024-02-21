@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 const app = express();
-const location = "dataBase";
+const location = "database";
 
 // Serve static files from the "NodeJs Task" folder
 app.use(express.static(path.join(__dirname, "NodeJS Task")));
